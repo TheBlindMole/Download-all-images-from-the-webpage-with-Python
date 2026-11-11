@@ -38,7 +38,8 @@ from bs4 import BeautifulSoup
 from urllib.parse import urljoin
 
 # Link to the desired web page
-url = 'https://www.ign.com/wikis/the-legend-of-zelda-breath-of-the-wild/All_Recipes_and_Cookbook'
+print("Write the webpage URL here:")
+url = input()
 folder_name = 'img'
 
 os.makedirs(folder_name, exist_ok=True)
