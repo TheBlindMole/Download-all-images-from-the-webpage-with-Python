@@ -5,8 +5,8 @@ import os
 import requests
 from bs4 import BeautifulSoup
 
-url = 'https://www.ign.com/wikis/the-legend-of-zelda-breath-of-the-wild/All_Recipes_and_Cookbook'
-
+print("Write the webpage URL here:")
+url = input
 def imagedown(url, folder):
     try:
         os.mkdir(os.path.join(os.getcwd(), folder))
