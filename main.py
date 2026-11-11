@@ -6,7 +6,7 @@ import requests
 from bs4 import BeautifulSoup
 
 print("Write the webpage URL here:")
-url = input
+url = input()
 def imagedown(url, folder):
     try:
         os.mkdir(os.path.join(os.getcwd(), folder))
